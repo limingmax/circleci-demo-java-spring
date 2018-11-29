@@ -1,12 +1,12 @@
-package com.circleci.demojavaspring;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoJavaSpringApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoJavaSpringApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 }
